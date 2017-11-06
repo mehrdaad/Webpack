@@ -5,6 +5,8 @@ module.exports = {
 	entry: './src/index.js',
 	// Tell webpack what the output filename is and where to locate it
 	output: {
+		// All the additional code you see in bundle.js is to allow modules to be run in the browser.
+		// All of that code is called webpack runtime or the webpack bootstrap
 		filename: 'bundle.js'
 	}
 };
