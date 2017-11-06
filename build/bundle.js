@@ -65,9 +65,23 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, exports) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-console.log('Hello webpack');
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__fooString__ = __webpack_require__(1);
+//The main difference with gulp/grunt and other task runners is while these files get a large list of files and concatenate together, webpack utilises a concept called dependency graph
+// Webpack starts at the entry point (specified in config or submitted via command line argument) and will into files like export/ import/ export default / require / amd defines and it's going to mark those paths that are being referenced as dependencies.
+// Webpack then goes to each of these dependencies and create modules and repeats that process through entire application.
+
+
+
+/***/ }),
+/* 1 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* unused harmony default export */ var _unused_webpack_default_export = ('fooString');
 
 /***/ })
 /******/ ]);
