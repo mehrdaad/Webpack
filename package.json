@@ -1,0 +1,13 @@
+{
+  "name": "Webpack-the-core-concepts",
+  "author": "Mehrdad Shokri <code.poet95@gmail.com>",
+  "description": "https://webpack.academy",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "webpack": "^3.8.1"
+  }
+}
