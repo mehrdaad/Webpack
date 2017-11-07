@@ -18,3 +18,9 @@ module.exports = {
 	},
 
 };
+
+/*    This command will watch every file from entry point to the files that are referenced use --watch arg to watch a file for change
+	Watching in webpack has the benefit that it wont quit on errors
+	It also updates only the files that are changed, so it's really quick
+
+*/
