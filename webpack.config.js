@@ -50,8 +50,8 @@ module.exports = {
 	//The difference between plugins and loaders is that plugins do whatever loaders can't. So, if loaders do a bit of transoformation on a file before adding to dependency graph, plugins can do somoething like minifying your code, apply changes to multiple files, create bundles of css
 	plugins: [
 	// plugins are class so you always create a new instance of it.
-		new webpack.optimize.UglifyJsPlugin();
-	]
+		new webpack.optimize.UglifyJsPlugin(),
+	],
 
 };
 
